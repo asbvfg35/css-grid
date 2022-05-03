@@ -1,0 +1,26 @@
+html, body {
+margin: 0;
+}
+
+
+
+.container {
+background-color: #ccc;
+display: grid;
+ /* padding: 1.5rem; */
+gap: 10px 15px;
+
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+/* grid-template-rows: minmax(100px, auto) 100px  200px; */
+/* grid-auto-rows: minmax(100px, auto); */
+
+}
+
+
+
+
+.item {
+background-color: peru;
+border-radius: 15px;
+padding: 1rem;
+}
